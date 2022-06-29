@@ -1,7 +1,6 @@
 #include <iostream>
 
 using namespace std;
-
 int main() {
     int inSizeV1, inSizeV2, sizeV1, sizeV2, outSizeV3;
 
@@ -64,11 +63,9 @@ int main() {
                     outVector[k] = outVector[k + 1];
                 }
                 outSizeV3--;
-                
             }
             j--;
-        }
-        
+        }        
     }
     cout << "\n---------------------------------\n";
     
@@ -76,6 +73,5 @@ int main() {
     {
         cout << outVector[i] << " ";
     }
-
     return 0;
 }
