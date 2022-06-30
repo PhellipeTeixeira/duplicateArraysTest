@@ -2,7 +2,7 @@
 
 using namespace std;
 int main() {
-    int inSizeV1, inSizeV2, sizeV1, sizeV2, outSizeV3;
+    int inSizeV1, inSizeV2, outSizeV3;
 
     cout << "Enter the amount of items you want to have in the first list: ";
     cin >> inSizeV1;
