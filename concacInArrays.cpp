@@ -56,7 +56,7 @@ int main() {
     {
         for (int j = i + 1; j < outSizeV3; )
         {
-            if (inVector1[i] == inVector2[j])
+            if (outVector[i] == outVector[j])
             {
                 for (int k = j; k < outSizeV3; k++)
                 {
